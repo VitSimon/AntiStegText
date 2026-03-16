@@ -41,9 +41,9 @@ toFilteredUTFText('Hello ✏️🧑‍🤝‍🧑 !'); //'Hello ✏🧑🤝🧑 
 
 ## Known limits and issues
 
-- Tool works for texts only (no binary data)
+- **Tool works for texts only (no binary data)**
 - Steganography filters are strict and possibly very tight
-- Control characters TAB (9), LF (10), CR (13), and space (32) are retained to preserve text formatting. 
+- **Control characters TAB (9), LF (10), CR (13), and space (32) are retained to preserve text formatting.**
   - Note that these can still be exploited for steganography.
 
 ## Version publishing
@@ -51,6 +51,14 @@ toFilteredUTFText('Hello ✏️🧑‍🤝‍🧑 !'); //'Hello ✏🧑🤝🧑 
 - No managed packages or artifacts are planned to be released from this repository
 - Work directly with the content of the main branch of the GitHub repository
 - Repository idea is took and refactored from my other project - [HelpViewer][HelpViewer] ([src][HelpViewer2])
+
+## Sources and news
+
+Nowadays it seams UTF steganography is on growing trend:
+- <https://www.linkedin.com/posts/advocatemack_supplychainsecurity-opensourcesecurity-npm-activity-7439310060041748480-uH4b/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABSIquoBUsK5RLc5thxVQYSzmqo9Y4xBY1Y>
+- <https://socket.dev/blog/stegabin-26-malicious-npm-packages-use-pastebin-steganography>
+- <https://www.veracode.com/resources/sophisticated-npm-attack-leveraging-unicode-steganography-and-google-calendar-c2-2/>
+- <https://www.darkreading.com/application-security/npm-package-malware-stenographic-qr-codes>
 
 [Demo]: https://github.com/VitSimon/AntiStegText/blob/master/index.htm "Demo"
 [HelpViewer]: https://github.com/HelpViewer "HelpViewer"
