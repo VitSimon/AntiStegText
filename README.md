@@ -41,7 +41,7 @@ toFilteredUTFText('Hello ✏️🧑‍🤝‍🧑 !'); //'Hello ✏🧑🤝🧑 
 
 ## Known limits and issues
 
-- **Tool works for texts only (no binary data)**
+- **Tool works for texts only (no binary data)** (not protecting against steganography in images, QR codes, or higher‑level protocol abuse)
 - Steganography filters are strict and possibly very tight
 - **Control characters TAB (9), LF (10), CR (13), and space (32) are retained to preserve text formatting.**
   - Note that these can still be exploited for steganography.
