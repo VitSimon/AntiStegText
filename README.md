@@ -50,7 +50,8 @@ toFilteredUTFText('Hello ✏️🧑‍🤝‍🧑 !'); //'Hello ✏🧑🤝🧑 
 
 - No managed packages or artifacts are planned to be released from this repository
 - Work directly with the content of the main branch of the GitHub repository
-- Repository idea is took and refactored from my other project - [HelpViewer][HelpViewer]
+- Repository idea is took and refactored from my other project - [HelpViewer][HelpViewer] ([src][HelpViewer2])
 
 [Demo]: https://github.com/VitSimon/AntiStegText/blob/master/index.htm "Demo"
 [HelpViewer]: https://github.com/HelpViewer "HelpViewer"
+[HelpViewer2]: https://github.com/HelpViewer/HelpViewer-loader/blob/5bcad543493b4dcc13f8d085ed1556e4ed6ae63f/appmain.js#L10
